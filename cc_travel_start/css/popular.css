@@ -1,0 +1,40 @@
+
+
+.destination-bg-4 {
+    background-image: url(../img/desstination/america.png);
+}
+
+.destination-bg-5 {
+    background-image: url(../img/desstination/brazil.png);
+}
+
+.destination-bg-6 {
+    background-image: url(../img/desstination/indonesia.png);
+}
+
+.destination-bg-7 {
+    background-image: url(../img/desstination/italy.png);
+}
+
+.destination-bg-8 {
+    background-image: url(../img/desstination/maldives.png);
+}
+  
+.destination-bg-9 {
+    background-image: url(../img/desstination/nepal.png);
+}
+
+.destination {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-area: 1 / 1 / 2 / 3;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+#h5 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
